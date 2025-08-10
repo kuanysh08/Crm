@@ -1,22 +1,20 @@
 {
   "name": "Opendoor CRM",
-  "short_name": "Opendoor",
+  "short_name": "Opendoor CRM",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#6AA6B2",
   "icons": [
     {
-      "src": "assets/icon-192.png",
+      "src": "icon-192.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     },
     {
-      "src": "assets/icon-512.png",
+      "src": "icon-512.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     }
   ]
 }
