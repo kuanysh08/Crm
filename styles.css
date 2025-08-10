@@ -1,0 +1,20 @@
+
+:root{ --primary:#6AA6B2; --secondary:#B362B2; --soft:#eef2f7; --ink:#111416; --muted:#6b7280; --radius:14px; }
+*{box-sizing:border-box} html,body{margin:0;padding:0;background:#fff;color:var(--ink);font-family:-apple-system,Inter,Segoe UI,Roboto,sans-serif}
+.app-header{padding:12px 16px;display:flex;gap:10px;align-items:center;background:linear-gradient(135deg,var(--primary),var(--secondary));color:#fff;position:sticky;top:0;z-index:3}
+.logo{height:28px}
+.app-header h1{margin:0;font-size:18px;font-weight:700}
+.tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:10px;position:sticky;top:56px;background:#fff;border-bottom:1px solid #e5e7eb;z-index:2}
+.tabs button{padding:10px;border:1px solid #e5e7eb;border-radius:10px;background:#fff;font-size:13px}
+.tabs button.active{background:var(--soft);border-color:var(--primary)}
+main{padding:12px 12px 40px}
+.card{background:#fff;border:1px solid #e5e7eb;border-radius:var(--radius);padding:12px;margin-bottom:10px;box-shadow:0 1px 0 rgba(0,0,0,.02)}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.kb{color:var(--muted);font-size:12px}
+.badge{display:inline-block;padding:4px 8px;border-radius:999px;border:1px solid #e5e7eb;font-size:12px}
+.btn{padding:10px 12px;border:1px solid #e5e7eb;border-radius:10px;background:#fff;font-size:14px}
+.btn.primary{background:var(--primary);border-color:var(--primary);color:#fff}
+.input,select,textarea{width:100%;padding:10px 12px;border:1px solid #e5e7eb;border-radius:10px;background:#fff;font-size:14px}
+.table{width:100%;border-collapse:collapse} .table th,.table td{border-bottom:1px solid #e5e7eb;padding:8px;text-align:left} .table th{color:var(--muted);font-weight:600;font-size:12px}
+.stage{padding:8px 10px;border-radius:999px;border:1px dashed var(--primary);color:var(--primary);display:inline-block;font-size:12px}
+.ios-tip{position:fixed;left:10px;right:10px;bottom:10px;background:#111827;color:#fff;padding:10px 12px;border-radius:12px;opacity:.95}
